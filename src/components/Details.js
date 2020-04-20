@@ -24,9 +24,7 @@ export default class Details extends Component {
                         
                         <div className="row">
                             <div className="col-10 mx-auto col-md-6 my-3">
-                                {/* <img src={img} className="img-fluid" alt="product" /> for single img */}
-                                {/* {console.log(img.length)} */}
-                                <Carousel>
+                                  <Carousel>
                                     { 
                                         img.map(item => {
                                             return (
