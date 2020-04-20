@@ -15,8 +15,6 @@ export default class Product extends Component {
                     {(value)=> (
                         <div className="img-container" onClick={()=>value.handleDetail(id)}>
                         <Link to="/details">
-                            {/* img on error with default one 
-                            <img src={img[0].image} onError="this.onerror=null; this.src='../../img/noimage.png';" className="card-img-top"/> */}
                             <img src={img[0].image} alt="product" className="card-img-top"/>
                         </Link>
                         <button className="cart-btn" 
